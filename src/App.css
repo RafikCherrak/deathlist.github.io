@@ -1,0 +1,103 @@
+.App {
+  display: flex;
+  align-items:center;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh; 
+  font-family: arial ,sans-serif;
+}
+
+body {
+  margin:0%;
+  padding: 0%;
+}
+
+
+.header{
+  flex : 30%; 
+  background-color: brown;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header .inputContainer {
+  display : flex;
+  flex-direction: column; 
+}
+
+.header input{
+  width:200px;
+  height: 40px;
+  border : none;
+  border-bottom-left-radius:8px;
+  border-top-left-radius: 8px;
+  padding-left :10px;  
+  font-size: 17px;
+  border: 1px solid grey;
+}
+
+
+.header button{
+  width: 70px;
+  height: 85px;
+  border : none;
+  border-bottom-right-radius: 8px; 
+  border-top-right-radius: 8px;
+  padding-left: 10px;
+  cursor: pointer;
+}
+
+.todoList{
+  flex: 70%; 
+  width: 100%;
+}
+
+.todoList{
+  flex : 70%; 
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: 50px;
+  flex-direction: column;
+}
+
+.task{
+  width: 500px;
+  height: 50px; 
+  display: flex;
+  color: white;
+  margin:15px;
+}
+
+.task .content{
+  flex : 80%; 
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.task .content span{
+  height : 100%; 
+  width: 100%;
+  display: grid;
+  font-size: 18px;
+  place-items: center;
+  border: 1px solid white; 
+  border-right: none;
+  background-color: tomato;
+}
+
+
+.task button{
+  flex: 20%;
+  height : 100%; 
+  border: none;
+  background-color: lightseagreen;
+  border-bottom-right-radius: 8px; 
+  border-top-right-radius: 8px;
+  color:white; 
+  cursor: pointer;
+}
