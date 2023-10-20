@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/deathlist.github.io/static/css/main.0c09921a.css",
+    "main.js": "/deathlist.github.io/static/js/main.45697adf.js",
+    "static/js/787.28cb0dcd.chunk.js": "/deathlist.github.io/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/deathlist.github.io/index.html",
+    "main.0c09921a.css.map": "/deathlist.github.io/static/css/main.0c09921a.css.map",
+    "main.45697adf.js.map": "/deathlist.github.io/static/js/main.45697adf.js.map",
+    "787.28cb0dcd.chunk.js.map": "/deathlist.github.io/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0c09921a.css",
+    "static/js/main.45697adf.js"
+  ]
+}
